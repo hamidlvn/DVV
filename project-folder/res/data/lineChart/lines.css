@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&display=swap');
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Roboto Slab', serif;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.mainContainer{
+    padding-top: 30px;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px !important;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+header{
+    color: white;
+    width: 100%;
+    background-color: #3a1d2b;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #3a1d2b !important;
+}
+#description{
+    font-size: medium;
+}
+.StateSelectClass{
+    width: 20%!important;
+} 
+
+.YearSelectClass{
+     width: 70% !important;
+}
+
+
+.buttonClass{
+    width: 10% !important;
+}
+
+#PlotRigidChart{
+    right: 109px !important;
+    position: absolute;
+}
+
+select, button {
+    padding: 5px;
+}
+#loadingDiv{
+    display: none;
+}
